@@ -1,4 +1,2 @@
-for(int i:d)
-    {
-        cout<<i<<" ";
-    }cout<<endl;
+    i++;j++;start++;
+                continue;
