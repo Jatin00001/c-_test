@@ -1,10 +1,10 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 int main()
 {
     char ch[10];
-    cin>>ch;
 
 
     cout<<ch;

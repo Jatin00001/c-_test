@@ -8,7 +8,7 @@ int main()
 {
     vector<int>v;
     int a[5]={1,2,3,4,5};
-    int b[3]={6,7,8};
+    int b[3]={5,7,8};
     int s = 0;
     int j = 0;
     while (s<5 && j<3)
@@ -38,7 +38,7 @@ int main()
     for(int i=0;i<v.size();i++)
     {
         cout<<v[i]<<" ";
-    }
+    } cout<<endl;
     
     
 
