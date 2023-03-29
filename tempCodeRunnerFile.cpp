@@ -1,2 +1,1 @@
-    i++;j++;start++;
-                continue;
+power
