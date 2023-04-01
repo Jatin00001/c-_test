@@ -5,8 +5,8 @@ int sqroot(int num)
 {
     long long s = 0;
     long long ans = -1;
-    long long e = num;
-    long long  mid  = s + (e-s)/2;
+    long long e = num ;
+    long long  mid  = s + (e-s)/2 ;
     while (s<=e)
     {
         if(mid*mid == num)
