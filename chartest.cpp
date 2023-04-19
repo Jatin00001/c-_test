@@ -11,7 +11,8 @@ char to_lower(char ch)
     }
     else
     {
-        return ch-'A'+'a';
+        char temp = ch-'A'+'a';
+        return temp;
     }
 
 }
@@ -21,7 +22,7 @@ bool check_palindrome(string s1)
     int e = s1.length()-1;
     while(s<=e)
     {
-        if(to_lower(s1[s]) != to_lower(s1[e]) ){
+        if(to_lower( s1[s] ) != to_lower( s1[e] ) ){
             return 0;
         }
         else{
