@@ -30,10 +30,33 @@ int alternate_covt_dec(int n)
     }
     return ans ;
 }
+void count(int n)
+{
+    if(n==0)
+        return ;
+    
+    cout<<n<<" ";
+    count(n-1);cout<<endl;
+    cout<<n<<" ";
+    
+}
+int power(int n)
+{
+    // base case;
+    if(n==0)
+        return 1;
+    return 2* power(n-1);
+}
+int fact(int n)
+{
+    if(n==0)
+        return 1;
+    return n* fact(n-1);
+}
 int main()
 {
-    int n = 1
-    ;
-    cout<<b_to_D(n)<<endl;
-    cout<<alternate_covt_dec(n);
+    int n;cin>>n;
+    count(20);
+    cout<<power(n)<<endl;
+    cout<<fact(n);
 }
