@@ -1,36 +1,37 @@
 #include<climits>
 #include<iostream>
+#include<algorithm>
 #include<array>
 using namespace std;
-int make_number(int *a,int size){
+void reverse(int& n)
+{
+    int power = 1;
     int ans = 0;
-   for(int i = 0; i<size; i++){
-        if(ans>INT_MAX/10){
-            cout<<"-1"<<endl;
-            break;
-        }
-        else if(a[i]>=10)
-        {
-            int a1 = a[i];
-            while(a1)
-            {
-                int last= a1%10;
-                ans = ans*10 + last;
-                a1 = a1/10;
-            }
-            
-        }
-        else{
-            ans = ans*10 + a[i];
-        }
-   }
-    cout<<ans<<endl;
+    while (n)
+    {
+        int last_digit = n%10;
+        ans = (last_digit*power) + ans;
+        // cout<<ans<<" ";  
+        // ans = ans*10 + last_digit;
+        power = power * 10 ;
+        n = n/10;
+    }
+    // cout<<ans<<endl;
+    n = ans;
+    return;
+    
 }
+
 
 int main()
 {
-    int a[16]= {123};
-    int ans  = make_number(a,1);
+//     int a[16]= {123};
+//     int ans  = make_number(a,1);
+
+    int n = 123;
+    reverse(n);
+    cout<<n<<endl;
+
 
     return 0;
 }
