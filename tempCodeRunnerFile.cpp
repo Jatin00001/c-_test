@@ -1,2 +1,1 @@
-    cout<<power(n)<<endl;
-    cout<<fact(n);
+ // print(a,s,e);
