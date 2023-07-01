@@ -1,1 +1,1 @@
- // print(a,s,e);
+cout << endl;
