@@ -34,7 +34,7 @@ void sort_012(int arr[], int n) {
     {
         arr[i]=1;
         i++;
-        c2--;
+        c2--;T
     }
     while (c3>0)
     {
