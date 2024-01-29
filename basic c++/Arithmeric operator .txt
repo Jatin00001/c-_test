@@ -1,0 +1,33 @@
+	
+	ARLBATM (A-R-L-B-A-T-M)
+	Arithmeric operator 
+	   1. unary operator
+	   2. binary
+	
+	Relational operator
+		gives you a relation between 2 operands'
+		using  == ,  !=  , <, > , >= , <= ;
+	Logical operator
+		we implement a logic using logical operator
+		1. and(&&)
+		2. OR(||)
+ 		3. not (!) any relation opposite 
+
+	Bitwise operaot
+		1. and (&)
+		2. or (|)
+		3. zor (^)
+		4. complement (~) flips the bits
+		5. left shift (<<)
+		6. right shift (>>)
+		
+	Assignment operatior
+		= , += ,-= , *= , /= 
+	ternary operator
+		(expression)?a:b;
+
+	Miscellaneous operator	
+		sizeof(),<<,>>,comma , -> , cast operator, dot , & , * , 
+
+
+		
